@@ -2,6 +2,7 @@
 set -e
 
 # Stop the running container (if any)
-docker rm -f
+container_name="d479f8ccc8a8 "
+docker rm $container_name 
 
 
